@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Web Minimalista</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #ffffff;
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    video {
+      width: 100%;
+      max-height: 60vh;
+      border-radius: 16px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #111;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    a.whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 50px;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+    a.whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted playsinline>
+    <source src="video.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+
+  <h1>Bienvenido a Mi Sitio Web</h1>
+  <a class="whatsapp-btn" href="https://wa.me/1234567890" target="_blank">Contáctame por WhatsApp</a>
+</body>
+</html>
